@@ -1,0 +1,32 @@
+body {
+  background: url("1.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.instrument-wrapper {
+  width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+.instrument {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #000;
+  text-align: center;
+  background-color: #cccccca6;
+}
+
+.key {
+  font-size: 20px;
+  font-weight: bold;
+}
